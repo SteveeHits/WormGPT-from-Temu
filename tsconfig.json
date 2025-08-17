@@ -16,10 +16,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@/components/*": ["./src/components/*"], // Make sure this path is correct if you use @/components
-      "@/lib/*": ["./src/lib/*"] // Add other paths as needed
+      "@/components/*": ["./src/components/*"],
+      "@/lib/*": ["./src/lib/*"]
     }
   },
-  "include": ["src"], // This is crucial: tell tsc to look in the 'src' directory
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src"]
+  // "references" line removed
 }

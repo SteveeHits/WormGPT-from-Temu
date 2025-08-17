@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "types": ["node"] // This line is crucial for Node.js types
+  },
+  "include": ["vite.config.ts"] // Or other Node.js specific files like server.ts
+}
