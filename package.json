@@ -1,0 +1,43 @@
+{
+  "name": "wormgpt-chat-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.303.0",
+    "framer-motion": "^10.16.4",
+    // Add other dependencies for shadcn/ui components if not already present
+    // e.g., "class-variance-authority", "clsx", "tailwind-merge"
+    // Also, ensure your styling (Tailwind CSS) dependencies are here if used
+    "tailwindcss": "^3.x",
+    "postcss": "^8.x",
+    "autoprefixer": "^10.x"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1", // If using Vite
+    "typescript": "^5.x",
+    "vite": "^5.0.10", // If using Vite
+    // or react-scripts if using Create React App
+  },
+  "scripts": {
+    "dev": "vite",        // or "react-scripts start" for CRA
+    "build": "vite build", // or "react-scripts build" for CRA
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview" // If using Vite
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
